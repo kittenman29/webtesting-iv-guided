@@ -9,3 +9,16 @@ function name(args) => return something;
 - data access: talk to the persistent data store.
 
 set the test environment to run on 'node' instead of a browser
+
+
+Component = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+cross-env = npm package used to abstract away OS differences when setting up env variables.
+
+DB_ENV=testing  //key-value pair for our environment variable
